@@ -1,0 +1,20 @@
+The InfiniBand architecture is divided into multiple layers where each layer operates independently of one another.
+
+
+Physical
+|
+|
+|
+Link
+|
+|
+|
+Network
+|
+|
+|
+Transport
+|
+|
+|
+Upper Layers
