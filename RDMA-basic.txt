@@ -15,3 +15,11 @@ In a traditional network data path, an application needs to go through the buffe
 
 
 
+
+
+When the so-called communication path between the source and destination is set up, the kernel is by-passed. By doing so, the network latency is lowered while data throughput is increased because there's a lot less CPU cycles involved. The RDMA application speaks to the Host Channel Adapter (HCA) direclty using the RDMA Verbs API. You can see a HCA as a RDMA capable Network Interface Card (NIC). To transport RDMA over a network fabric, InfiniBand, RDMA over Converged Ethernet (RoCE), and iWARP are supported.
+
+
+
+
+
