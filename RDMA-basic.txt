@@ -1,1 +1,17 @@
 RDMA(Remote Direct Memory Access) is a networking technology that provides high-throughput, low-latency communication that minimizes CPU usage.
+
+
+Remote Direct Memory Access (RDMA) is an extension of the Direct Memory Access (DMA) technology, which is the ability to access host memory directly without CPU intervention. 
+RDMA allows for accessing memory data from one host to another. A key characteristic of RDMA is that it greatly improves throughput and performance while lowering latency because less CPU cycles are needed to process the network packets.
+
+
+
+
+
+
+Traditional Data Path vs RDMA
+In a traditional network data path, an application needs to go through the buffers using the sockets API in the user space. In the kernel, the data path includes the TCP, IPv4/6 stack all the way down to the device driver and eventually the network fabric. All these steps require CPU cycles for processing. With high bandwidth networks today (25,40,50, and 100GbE) this can pose a challenge because of the amount of CPU time required to process data and put that data on the wire. That is where RDMA comes into play.
+
+
+
+
