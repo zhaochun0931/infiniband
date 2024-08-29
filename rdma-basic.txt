@@ -1,0 +1,1 @@
+RDMA(Remote Direct Memory Access) is a networking technology that provides high-throughput, low-latency communication that minimizes CPU usage.
