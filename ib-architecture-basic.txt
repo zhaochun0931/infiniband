@@ -56,3 +56,13 @@ ibping <target_ip>
 ib_write_bw
 
 ib_write_bw <source_ip>
+
+
+
+
+
+
+
+
+RDMA is a method of data transfer that can be implemented over various networks, while InfiniBand is a specific networking architecture that natively supports RDMA.
+
