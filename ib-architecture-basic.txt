@@ -18,3 +18,41 @@ Transport
 |
 |
 Upper Layers
+
+
+
+
+
+
+
+apt install infiniband-diags ibutils perftest rdma-core
+
+
+sudo modprobe ib_core
+sudo modprobe ib_ipoib
+sudo modprobe ib_uverbs
+
+
+
+
+
+
+ibstat
+
+
+
+
+For example, on Ubuntu, you would edit /etc/network/interfaces or use netplan if you're using a more recent version
+
+
+
+
+
+
+ibping <target_ip>
+
+
+
+ib_write_bw
+
+ib_write_bw <source_ip>
