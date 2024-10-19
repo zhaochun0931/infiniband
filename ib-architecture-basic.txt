@@ -22,6 +22,14 @@ Upper Layers
 
 
 
+InfiniBand is a dedicated architecture, while RoCE operates over standard Ethernet.
+
+
+
+
+
+
+
 
 
 
