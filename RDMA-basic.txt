@@ -23,3 +23,9 @@ When the so-called communication path between the source and destination is set 
 
 
 
+Remote Direct Memory Access (RDMA): Allows direct memory access from one computer to another, bypassing the CPU for improved performance.
+
+
+Both InfiniBand and RoCE support RDMA.
+
+
